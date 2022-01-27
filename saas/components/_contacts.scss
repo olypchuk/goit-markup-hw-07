@@ -1,0 +1,35 @@
+.contacts {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 114%;
+  color: var(--maincolor);
+  fill: #757575;
+  transition: var(--transition);
+  &:hover,
+  &:focus {
+    color: var(--accentcolor);
+    fill: currentColor;
+  }
+  & > svg {
+    margin-right: 10px;
+  }
+}
+.contacts-list {
+  margin-left: 0px;
+  align-items: baseline;
+  &:hover,
+  &:focus {
+    transition-property: fill;
+    fill: var(--accentcolor);
+  }
+  &:last-child {
+    margin-left: 50px;
+  }
+}
+.contacts-footer:hover,
+.contacts-footer:focus {
+  color: var(--accentcolor);
+  transition-property: color;
+}

@@ -1,0 +1,28 @@
+.client-box {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+
+  border-radius: 4px;
+  cursor: pointer;
+  fill: #afb1b8;
+  transition: fill var(--transition), border var(--transition);
+  &:hover,
+  &:focus {
+    fill: #188ce8;
+    border: 1px solid #188ce8;
+  }
+  & + & {
+    margin-left: 30px;
+  }
+  & > svg {
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  & > svg + svg {
+    padding: 16px 32px;
+  }
+}

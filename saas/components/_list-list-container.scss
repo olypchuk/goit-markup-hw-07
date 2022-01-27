@@ -1,0 +1,31 @@
+.list {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.list-list-container {
+  width: 270px;
+  border-radius: 4px;
+  & + & {
+    margin-left: 30px;
+  }
+}
+
+.title-list-item > svg {
+  padding: 25px 100px;
+  background: #f5f4fa;
+}
+
+.title-list {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 114%;
+  margin-top: 30px;
+}
+.item {
+  font-size: 14px;
+  line-height: 171%;
+  margin-top: 10px;
+}
