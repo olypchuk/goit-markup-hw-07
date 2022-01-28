@@ -2,11 +2,11 @@
   margin-left: 93px;
   padding-top: 12px;
 }
-.div-footer {
+.form-footer__wrap-input {
   display: flex;
   align-items: baseline;
 }
-.footer-label {
+.form-footer__label {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -15,7 +15,7 @@
 
   color: #ffffff;
 }
-.footer-input {
+.form-footer__input {
   padding: 15px 0 15px 16px;
   margin-top: 20px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -26,11 +26,11 @@
   width: 358px;
 }
 
-.submit-icon {
+.form-footer__submit-icon {
   width: 24px;
   margin-left: 10px;
 }
-.btn.submit {
+.btn__submit {
   display: flex;
   align-items: center;
   justify-content: center;

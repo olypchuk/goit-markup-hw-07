@@ -17,15 +17,21 @@
   display: flex;
   flex-direction: column;
 }
-.contacts-footer {
+.footer-address__contacts {
   font-size: 14px;
   line-height: 171%;
   color: var(--footercolor);
   transition: color var(--transition);
   margin-top: 9px;
   padding-bottom: 60px;
+  &:hover,
+  &:focus {
+    color: var(--accentcolor);
+    transition-property: color;
+  }
 }
-.logofooter {
+
+.logo__footer {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -34,21 +40,13 @@
   color: var(--backgroundcolor);
   text-decoration: none;
 }
-
-.foot {
-  display: flex;
-  background: rgba(255, 255, 255, 0.1);
-  cursor: pointer;
-  fill: #ffffff;
-}
-
-.foot-title {
+.footer-links {
   display: flex;
   flex-direction: column;
   margin-left: 70px;
   padding-top: 12px;
 }
-.foot-title-foot {
+.footer-links__title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -56,10 +54,15 @@
   text-transform: uppercase;
   color: #ffffff;
 }
-
-.social-icons.footer {
+.footer-links__wrap {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 4px;
+}
+.footer-links__icons {
+  display: flex;
+  background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  fill: #ffffff;
 }

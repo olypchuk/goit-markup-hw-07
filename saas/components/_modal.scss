@@ -8,7 +8,6 @@
     right: 0; */
   background: rgba(0, 0, 0, 0.2);
   transition: opacity var(--transition), visibility var(--transition), transform var(--transition);
-  /* scale(0.8) var(--transition); */
 }
 .is-hidden {
   opacity: 0;
@@ -32,7 +31,7 @@
   padding: 40px;
 }
 
-.modal-title {
+.modal__title {
   font-weight: bold;
   font-size: 20px;
   line-height: 1.15;

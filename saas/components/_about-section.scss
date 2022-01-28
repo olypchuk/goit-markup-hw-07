@@ -1,13 +1,24 @@
 .about {
   padding-top: 0;
 }
-.list-images + .list-images {
+.title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 117%;
+  text-align: center;
+}
+.about__title {
+  margin-bottom: 50px;
+}
+
+.images__list + .images__list {
   margin-left: 30px;
 }
+
 .backdrop {
   position: relative;
 }
-.backdrop-span {
+.backdrop__text {
   font-family: 'Roboto';
   font-size: 14px;
   font-weight: 700;

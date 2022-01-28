@@ -1,3 +1,6 @@
+.client__title {
+  margin-bottom: 50px;
+}
 .client-box {
   width: 170px;
   height: 92px;
@@ -15,14 +18,13 @@
   & + & {
     margin-left: 30px;
   }
-  & > svg {
-    padding: 16px 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  & > svg + svg {
+}
+.client-box__icon {
+  padding: 16px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & + & {
     padding: 16px 32px;
   }
 }
