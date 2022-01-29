@@ -1,3 +1,6 @@
+.cards-section {
+  padding-top: 0px;
+}
 .cards-list {
   display: flex;
   flex-wrap: wrap;
@@ -18,28 +21,26 @@
   }
 }
 
-.filter-title {
+.card-full__name {
   padding: 20px 24px;
 }
-.list-title {
+.card-full__title {
   font-weight: bold;
   font-size: 18px;
   line-height: 200%;
 }
-.list-text {
+.card-full__text {
   margin-top: 4px;
   font-size: 16px;
   line-height: 187%;
   color: var(--maincolor);
 }
-.thumb-image {
+.card-full__thumb {
   position: relative;
   overflow: hidden;
 }
-.cards {
-  padding-top: 0px;
-}
-.p-overlay {
+
+.card-full__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -54,11 +55,11 @@
     // .card-full:hover .p-overlay {
     // transform: translatey(0);
   }
-  & > span {
-    font-size: 18px;
-    line-height: 1.56;
-    letter-spacing: 0.03em;
+}
+.card-full__descr {
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
 
-    color: #ffffff;
-  }
+  color: #ffffff;
 }

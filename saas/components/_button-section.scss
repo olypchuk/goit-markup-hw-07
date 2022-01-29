@@ -1,12 +1,12 @@
 .button-section {
-  padding-top: 94px;
   padding-bottom: 50px;
 }
-.button-list {
+.button-section__wrap {
   display: flex;
   justify-content: center;
 }
 .button {
+  padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 162%;
@@ -17,7 +17,7 @@
   border-radius: 4px;
   border: none;
   cursor: pointer;
-  &.all,
+  &--all,
   &:focus,
   &:hover {
     color: var(--backgroundcolor);
@@ -26,11 +26,6 @@
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 }
-
-.button.portfolio {
-  padding: 6px 22px;
-}
-
-.button-list.list > li:not(:first-child) {
+.button-section__item:not(:first-child) {
   margin-left: 8px;
 }

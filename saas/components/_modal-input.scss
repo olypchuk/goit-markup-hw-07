@@ -86,7 +86,7 @@
   margin-left: 7px;
   transition: fill var(--transition), background-color var(--transition), border var(--transition);
 }
-.checkbox__input:checked + .agreement-icon {
+.checkbox__input:checked + .checkbox__icon {
   border: none;
   background-color: var(--accentcolor);
   fill: #ffffff;
